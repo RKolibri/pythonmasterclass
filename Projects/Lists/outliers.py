@@ -27,13 +27,3 @@ for index in range(len(data) - 1, -1, -1):
 print(start)  # for debugging
 del data[start:]
 print(data)
-
-# del data[0:2]
-# print(data)
-# del data[14:]
-# print(data)
-# min_valid = 100
-# max_valid = 200
-# for index, value in enumerate(data):
-# if (value < min_valid) or (value > max_valid):  # this won't work
-#        del data[index]

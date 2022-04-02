@@ -17,7 +17,7 @@ a = b = c = d = e = f = g = pages = pages_new
 print("Navigation Bar")
 f.append("Login")
 print(g)
-print(b)
+print(' '.join(pages_new))
 f.append("Register")
 
 print("Final Navigation Bar")

@@ -28,6 +28,8 @@ for plant in data:
         flowers.append(plant)
     elif "Shrub" in plant:
         shrubs.append(plant)
-
 print(flowers)
+print([i.replace('- Flower', '') for i in flowers])  # remove - Flower
 print(shrubs)
+
+print([i.replace('- Shrub', '') for i in shrubs])  # remove - Shrub
